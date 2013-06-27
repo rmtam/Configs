@@ -1,0 +1,31 @@
+/********SCP*********/
+
+note: "scp -r ..." for copying directories
+
+Sever to Local host
+scp user@server.com:file.txt: /some/local/directory
+
+Local host to Server
+scp myFile.txt user@server.com:directory/of/the/server/file.txt
+
+Server to Server
+scp user1@server.com:file1.txt user2@server.com:file1.txt
+
+/*********other*********/
+PolySat VM 129.65.189.79
+
+du -sh * - get the file sizes of all files in this directory
+evince - view pdf
+eog/display - view image
+ln -s <file that exist> <location to place> - softlink a file
+wall "msg" - send msg to everyone on the server
+pdflatex <latexDoc>- creates a pdf from latex
+
+tar -cvzf nameOfTar.tar.gz file1 file2 file3 - Create a compressed Tar file
+
+mail user@email.com -s "Subject" < file.txt - "attach" a file to an email
+
+mac lab host is 232x00 say "words here"
+osascript -e "set Volume 4.5"
+
+java -cp .:/path/to/the/jar/here nameOfTheClassToUse
